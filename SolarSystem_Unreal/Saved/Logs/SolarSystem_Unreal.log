@@ -1386,3 +1386,61 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.20-08.32.28:344][490]ImportText (Variants): Missing closing parenthesis: (Name="TwinStick",LocalizedDisplayNames=((Language="en",Text="Twin Stick"),(Language="ja",Text="ツインスティック"),(Language="ko",Text="트윈 스틱"),(Language="zh-Hans",Text="双摇杆游戏模板")),LocalizedDescriptions=((Language="en",Text="A twin stick shooter game with infinitely spawning enemies."),(Language="ja",Text="敵が無限にスポーンするツイン スティック シューティング ゲーム"),(Language="ko",Text="무한히 생성되는 적을 상대하는 트윈 스틱 슈팅 게임입니다."),(Language="zh-Hans",Text="一款双摇杆设计游戏，具有无限刷新的敌人。")),SharedContentPacks=((DetailLevels=(Standard),MountName="Variant_TwinStick"),(MountName="Input",DetailLevels=("High")))
 [2026.02.20-08.32.28:344][490]ImportText (Variants): Missing closing parenthesis: (Name="All",LocalizedDisplayNames=((Language="en",Text="All"),(Language="ja",Text="All (全員)"),(Language="ko",Text="모두"),(Language="zh-Hans",Text="全部")),LocalizedDescriptions=((Language="en",Text="Includes all Top Down variants."),(Language="ja",Text="すべてのトップダウン バリアントが含まれています"),(Language="ko",Text="모든 탑 뷰 베리언트를 포함합니다."),(Language="zh-Hans",Text="包含全部第三人称模板变体。")),SharedContentPacks=((DetailLevels=(Standard),MountName="Variant_TwinStick"),(DetailLevels=(Standard),MountName="Variant_Strategy"),(MountName="Input",DetailLevels=("High")))
 [2026.02.20-08.32.52:023][227]LogSlate: Window 'Open Project' being destroyed
+[2026.02.20-08.33.41:753][535]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2026.02.20-08.33.41:863][535]LogStall: Shutdown...
+[2026.02.20-08.33.41:864][535]LogStall: Shutdown complete.
+[2026.02.20-08.33.41:964][535]LogSlate: Window 'SolarSystem_Unreal - Unreal Editor' being destroyed
+[2026.02.20-08.33.41:969][535]LogWindowsTextInputMethodSystem: Activated input method: Français (France) - (Keyboard).
+[2026.02.20-08.33.42:397][535]Cmd: QUIT_EDITOR
+[2026.02.20-08.33.42:397][535]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.02.20-08.33.42:423][536]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.02.20-08.33.42:434][536]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.02.20-08.33.42:434][536]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.02.20-08.33.42:469][536]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.02.20-08.33.42:481][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.20-08.33.42:482][536]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.02.20-08.33.42:552][536]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.02.20-08.33.42:556][536]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.02.20-08.33.42:567][536]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.02.20-08.33.42:637][536]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.02.20-08.33.42:637][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.20-08.33.42:639][536]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.20-08.33.42:639][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.20-08.33.42:652][536]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.02.20-08.33.42:653][536]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.02.20-08.33.42:683][536]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.02.20-08.33.42:719][536]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.02.20-08.33.42:719][536]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.02.20-08.33.42:720][536]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.02.20-08.33.42:721][536]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.02.20-08.33.42:727][536]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.02.20-08.33.42:735][536]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.02.20-08.33.42:767][536]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.02.20-08.33.42:768][536]LogAudio: Display: Audio Device Manager Shutdown
+[2026.02.20-08.33.42:789][536]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.02.20-08.33.42:793][536]LogExit: Preparing to exit.
+[2026.02.20-08.33.43:088][536]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2026.02.20-08.33.43:935][536]LogEditorDataStorage: Deinitializing
+[2026.02.20-08.33.44:609][536]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.02.20-08.33.44:887][536]LogExit: Editor shut down
+[2026.02.20-08.33.44:933][536]LogExit: Transaction tracking system shut down
+[2026.02.20-08.33.47:473][536]LogExit: Object subsystem successfully closed.
+[2026.02.20-08.33.47:662][536]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.02.20-08.33.49:408][536]LogMemoryProfiler: Shutdown
+[2026.02.20-08.33.49:409][536]LogNetworkingProfiler: Shutdown
+[2026.02.20-08.33.49:409][536]LoadingProfiler: Shutdown
+[2026.02.20-08.33.49:410][536]LogTimingProfiler: Shutdown
+[2026.02.20-08.33.49:424][536]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.02.20-08.33.49:424][536]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.02.20-08.33.50:976][536]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.02.20-08.33.50:977][536]LogNFORDenoise: NFORDenoise function shutting down
+[2026.02.20-08.33.50:981][536]RenderDocPlugin: plugin has been unloaded.
+[2026.02.20-08.33.51:056][536]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.02.20-08.33.51:058][536]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB7FDE733-4D99-E79D-05BB-149CF1C2A6D2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=1a790eea41dbb99817b55fba32764d61%7Ce97b22d8df7f4b7394626a41681f3d61%7C2351b17c-521c-437a-98b2-59ae8e2e40dd&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.02.20-08.33.51:667][536]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.02.20-08.33.51:730][536]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.02.20-08.33.51:730][536]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.02.20-08.33.51:732][536]LogPakFile: Destroying PakPlatformFile
+[2026.02.20-08.33.52:881][536]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.02.20-08.33.52:991][536]LogExit: Exiting.
+[2026.02.20-08.33.53:080][536]Log file closed, 02/20/26 09:33:53
